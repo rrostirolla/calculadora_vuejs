@@ -27,26 +27,26 @@
   }
 
   const soma = () => {
-    return parseInt(estado.numero1) + parseInt(estado.numero2)
+    return parseFloat(estado.numero1) + parseFloat(estado.numero2)
   }
 
   const subtracao = () => {
-    return parseInt(estado.numero1) - parseInt(estado.numero2)
+    return parseFloat(estado.numero1) - parseFloat(estado.numero2)
   }
 
   const multiplicacao = () => {
-    return parseInt(estado.numero1) * parseInt(estado.numero2)
+    return parseFloat(estado.numero1) * parseFloat(estado.numero2)
   }
 
   const divisao = () => {
-    return parseInt(estado.numero1) / parseInt(estado.numero2)
+    return parseFloat(estado.numero1) / parseFloat(estado.numero2)
   }
 </script>
 
 <template>
     <div class="container bg-secondary p-3">
       <Cabecalho :calcula="calcula()"/>
-      <Formulario :trocarNumero1="evento => estado.numero1 = evento.target.value"
+      <Formulario :trocar-numero1="evento => estado.numero1 = evento.target.value"
         :trocar-numero2="evento => estado.numero2 = evento.target.value" 
         :troca-operacao="evento => estado.operacao = evento.target.value"
         :troca-soma="evento => estado.soma = evento.target.value" 
