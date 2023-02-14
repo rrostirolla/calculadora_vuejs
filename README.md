@@ -1,14 +1,18 @@
 # Calculadora VueJs
 
-This template should help get you started developing with Vue 3 in Vite.
+### 📝 Descrição
+Site com input de dois números onde é possível escolher a operação desejada e de imediato aparece o resultado no painel.
 
-## Recommended IDE Setup
+</br>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 👨🏻‍💻 Tecnologias utilizadas 
+Vue.Js
 
-## Customize configuration
+</br>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### 🎴 Imagem do projeto
+
+![Calculadora_VueJs](https://user-images.githubusercontent.com/114628700/218736905-296248c9-7c10-4df4-98de-4c361912a1a3.png)
 
 ## Project Setup
 
